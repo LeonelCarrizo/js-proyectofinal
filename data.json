@@ -1,0 +1,44 @@
+[
+    {
+    "id":1,
+    "nombre": "Jean hombre",
+    "img": "./imgs/jeanhombre.jpg",
+    "description": "no te pierdas el nuevo lanzamiento.",
+    "precio": 500
+    },
+    {
+    "id":2,
+    "nombre": "Remera hombre",
+    "img": "./imgs/remerahombre.jpg",
+    "description": "remera de hombre para utilizar en todo tipo de salida.",
+    "precio": 300
+    },
+    {
+    "id":3,
+    "nombre": "Zapatillas blancas",
+    "img": "./imgs/zapatillahombre.jpg",
+    "description": "Comodas y confortables.",
+    "precio": 1000
+    },    
+    {
+    "id":4,
+    "nombre": "Jean mujer",
+    "img": "./imgs/jeanmujer.jpg",
+    "description": "Jean mom para que lo disfrutes en cualquier situacion.",
+    "precio": 500
+    },
+    {
+    "id":5,
+    "nombre": "Remera mujer",
+    "img": "./imgs/remeramujer.jpg",
+    "description": "les presento la remera divina.",
+    "precio": 300
+    },
+    {
+    "id":6,
+    "nombre": "Zapatillas Negras",
+    "img": "./imgs/zapatillamujer.jpg",
+    "description": "sencillas y comodas.",
+    "precio": 500
+    }
+]

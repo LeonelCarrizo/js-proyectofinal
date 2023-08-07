@@ -1,0 +1,91 @@
+body{
+    margin-top: 50px;    
+    background-color: #3b2d28;
+}
+
+header{
+    color: #ffffff;
+}
+
+.buttons{
+    margin-left: 5px;
+}
+
+.navbar{
+    background-color: #333333;
+}
+
+footer{
+    background-color: #333333;
+    margin-top: 20px;
+}
+ul {
+    width: auto;
+    list-style-type: none;    
+    overflow: hidden;
+    background-color: #333333;
+    text-align: center;
+    border-radius: none;
+  }
+
+ 
+  
+  li a {
+    display: grid;
+    color: white;
+    padding: 16px;
+    text-decoration: none;    
+  }
+  
+  li a:hover {
+    background-color: #212529;
+  }
+
+.disabled{
+    display: none;
+}
+
+
+/*CARRITO*/
+
+.carro{
+  margin: 15px;
+} 
+header, .alert{
+    z-index: 100;
+  }
+  .description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+  }
+  .description:hover{
+    height: 80px;
+  }
+  .carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .table__productos{
+    display: flex;
+  }
+  .table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  .table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .hide, .remove{
+    display: none;
+  }
